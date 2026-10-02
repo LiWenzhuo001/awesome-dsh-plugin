@@ -1,0 +1,7 @@
+url: https://github.com/LiWenzhuo001/dsh-plugin-prompt-optimizer
+name: LiWenzhuo001/dsh-plugin-prompt-optimizer
+category: ui
+description:
+  en: 'Prompt optimization for the dsh composer from three entry points — a chat-input chip that rewrites the draft in place with one-click undo, a /optimize slash command (--analyze for structure only, --offline for rules without a model) and analyze_prompt / optimize_prompt model tools. Runs through the host''s own LLM channel so the plugin holds no API keys, with a deterministic offline rule engine as fallback and zero runtime dependencies.'
+  zh: '面向 dsh 输入框的提示词优化，三个入口——输入栏「优化提示词」芯片一键就地改写草稿并支持一键还原、/optimize 斜杠命令（--analyze 只做结构分析、--offline 走离线规则），以及 analyze_prompt / optimize_prompt 两个模型工具。请求经宿主自身的 LLM 通道转发，插件不持有任何 API key，模型不可用时回退到确定性离线规则引擎，运行时零外部依赖。'
+
